@@ -1,0 +1,35 @@
+{
+  "name": "sitemap-crawler",
+  "version": "1.0.0",
+  "description": "Crawls XML sitemaps and creates a database of URLs",
+  "main": "crawl.ts",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.3",
+    "sitemapper": "^3.2.8",
+    "underscore": "^1.8.3"
+  },
+  "scripts": {
+    "start": "tsx crawl.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alleyinteractive/xml-sitemap-crawler"
+  },
+  "keywords": [
+    "xml",
+    "sitemaps"
+  ],
+  "author": "Matthew Boynes",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/alleyinteractive/xml-sitemap-crawler/issues"
+  },
+  "homepage": "https://github.com/alleyinteractive/xml-sitemap-crawler",
+  "devDependencies": {
+    "@alleyinteractive/eslint-config": "^0.1.6",
+    "@types/node": "^20.11.30",
+    "eslint": "^8.57.0",
+    "tsx": "^4.7.1"
+  }
+}
